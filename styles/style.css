@@ -1,1 +1,84 @@
-/* место для вашего кода */
+.header .cover .footer {
+    margin: 0px;
+}
+
+.header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__menu {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    grid-template-areas:
+        "navigation logo adress";
+    padding: 92px 50px 96px 50px;
+}
+
+.header__links-list {
+    grid-area: navigation;
+    display: flex;
+    justify-content: start;
+    gap: 26px;
+}
+
+.header__link {
+    display: list-item;
+    list-style: circle;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.header__link_active {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__logo {
+    grid-area: logo;
+    justify-self: center;
+    align-self: center;
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress {
+    grid-area: adress;
+    justify-self: end;
+    align-self: center;
+    text-align: left;
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cover {
+    background-image: url("../images/cover.jpg");
+    min-height: 757px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay_cover {
+    position: absolute;
+
+}
+
+.lots {
+    margin: 180px 24px 0px 24px;
+}
+
+.about {
+    margin: 120px 24px 0px 180px;
+}
