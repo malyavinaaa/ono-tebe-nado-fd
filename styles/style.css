@@ -131,10 +131,6 @@
     margin: 180px 0px 0px 0px;
 }
 
-.about {
-    margin-top: 155px;
-}
-
 .cover__description-text {
     color: #ffffff;
     font-family: Raleway, sans-serif;
@@ -251,6 +247,10 @@
     text-decoration: underline;
 }
 
+.about {
+    margin-top: 155px;
+}
+
 .about__column {
     display: grid;
     grid-template-columns: 334px 1fr;
@@ -352,7 +352,6 @@
     justify-self: end;
     gap: 48px;
 }
-
 
 .footer__social-list-item {
     list-style: none;
