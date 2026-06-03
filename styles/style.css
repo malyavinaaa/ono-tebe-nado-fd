@@ -1,4 +1,4 @@
-.header .cover .footer {
+.header, .cover, .footer {
     margin: 0px;
 }
 
@@ -182,7 +182,8 @@
     width: 334px;
 }
 
-.card-link .card__title {
+.card-link {
+    all: unset;
     width: 100%;
 }
 
@@ -191,7 +192,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 596px;
+    min-height: 596px;
     background-position: center;
     background-size: cover;
 }
@@ -210,7 +211,7 @@
 
 .card__title {
     all: unset;
-    z-index: 0;
+    z-index: 1;
     padding-top: 48px;
     padding-right: 40px;
     padding-left: 40px;
@@ -226,7 +227,7 @@
 
 .card__text {
     all: unset;
-    z-index: 0;
+    z-index: 1;
     margin-top: auto;
     padding-right: 40px;
     padding-bottom: 48px;
@@ -310,7 +311,7 @@
     line-height: 24px;
 }
 
-.about__text__first__paragraph {
+.about__text__min-width {
     width: 688px;
 }
 
