@@ -46,8 +46,9 @@
     grid-area: logo;
     justify-self: center;
     align-self: center;
-    width: 133px;
+    width: 148px;
     height: 105px;
+    display: block;
 }
 
 .header__logo-image {
